@@ -1,0 +1,9 @@
+answer  = "paris"
+question = ""
+
+while question != answer:
+    question = input("What is the Capital of France: ")
+    if question != answer:
+        print("You are Incorrect, Try again")
+
+print("You are correct, Good Job")

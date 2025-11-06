@@ -1,0 +1,12 @@
+name = "alfeo"
+
+hometown = "Philippines"
+
+age = 20
+
+
+Thisdict =  {"name": name,
+             "age": age,
+             "hometown":hometown}
+
+print(f"name : {Thisdict['name']}",f"age : {Thisdict['age']}",f"hometown: {Thisdict['hometown']}")

@@ -1,0 +1,13 @@
+def even_or_odd(number):
+    if number % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+def main():
+    ask = int(input("Enter a Number: "))
+    answer = even_or_odd(ask)
+    print(f"the number {ask} is {answer}.")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,14 @@
+ask = input("Enter a name: ")
+
+names =["Jake" "Zac", "Ian", "Ron", "Sam", "Dave"]
+print(f"Who will you search: {ask}")
+
+found = False
+for item in names:
+    if ask.lower() in item.lower():
+        print(f"you search for: {item}")
+        print(f"The name {item} has found")
+        found = True
+
+if not found:
+    print(f"no name has found:'{ask}'")
